@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Investigation management</string>
+    <string name="investigation_management">investigation management</string>
+    <string name="description">description</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="ready_to_solve_a_case">Ready to solve a case?</string>
+    <string name="let_s_start">Let’s start</string>
+    <string name="note">note</string>
+    <string name="workk">today we were asking man that work in the library. His name was Inserco and..</string>
+    <string name="voice">voice</string>
+    <string name="knife_marks_broken_head_no_eyes_w">○Knife marks ○Broken head ○No eyes w...</string>
+    <string name="buy_drink_for_detective_and_cigarettes">Buy drink for detective. And cigarettes.</string>
+    <string name="tangled_another_fo_ring_mark">○Tangled ○Another fo... ○Ring mark...</string>
+    <string name="sdsd">today we were asking man that work in the library. His name was Inserco and as the investigation go further we he was working on...</string>
+    <string name="dfdfd">Still have a coplex feelings about Du Bois and his method of working, but we will see.</string>
+    <string name="voice_record_5">voice record 5</string>
+    <string name="voice_record_4">voice record 4</string>
+    <string name="voice_record_3">voice record 3</string>
+    <string name="voice_record_2">voice record 2</string>
+    <string name="voice_record_1">voice record 1</string>
+</resources>

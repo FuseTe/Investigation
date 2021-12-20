@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordsActivity"
+    android:background="@color/bejeviy">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/sp20"
+            android:contentDescription="@string/description"
+            android:src="@drawable/recent" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/voice_record_1"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/shape_white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/voice" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/voice_record_2"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/shape_white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/two">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/voice" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/voice_record_3"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/shape_white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/three">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/voice" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/voice_record_4"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/shape_white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/four">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/voice" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/voice_record_5"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/shape_white"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/five">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/description"
+            android:src="@drawable/voice" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description"
+        android:src="@drawable/micro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+        android:layout_marginTop="@dimen/sp20">
+
+    </ImageView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/description"
+                android:src="@drawable/post" />
+
+            <ImageView
+                android:id="@+id/work"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/work" />
+
+            <ImageView
+                android:id="@+id/record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/description"
+                android:src="@drawable/voice_control" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
